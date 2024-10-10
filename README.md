@@ -1,3 +1,4 @@
+### *THIS IS A WORKING IN PROGRESS PROJECT* ###
 # Hive Defender 🐝  
 ### An Intelligent System for Detecting Threats in Beehives
 
@@ -34,3 +35,5 @@ These improvements are essential steps to make the system more effective and fle
 *Hive Defender* was developed to provide a practical and efficient solution for monitoring the health of bees using computer vision and artificial intelligence technologies. By identifying and alerting the presence of threats such as *Varroa destructor*, the system can help preserve the integrity of beehives, which are crucial for pollination and environmental balance.
 
 This project also served as a learning platform to deepen knowledge in AI and computer vision applied to environmental preservation. In the future, *Hive Defender* can be expanded to include the detection of other threats and factors affecting the well-being of bees, further contributing to the protection of these vital insects.
+
+ps: Plz notice that this is the first time i'm working with anything related to Compute Vision, so don't expect anything crazy.
