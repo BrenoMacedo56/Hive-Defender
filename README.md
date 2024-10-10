@@ -1,4 +1,4 @@
-### *THIS IS A WORKING IN PROGRESS PROJECT* ###
+### *THIS IS A WORKING IN PROGRESS* ###
 # Hive Defender 🐝  
 ### An Intelligent System for Detecting Threats in Beehives
 
