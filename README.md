@@ -1,36 +1,36 @@
 # Hive Defender 🐝  
-### Um Sistema Inteligente para a Detecção de Ameaças em Colmeias
+### An Intelligent System for Detecting Threats in Beehives
 
-## Introdução
-O *Hive Defender* é um projeto desenvolvido durante a segunda metade de 2024 como parte do evento de tecnologia ENTEC, promovido pela Universidade de Uberaba (Uniube). O principal objetivo do projeto é monitorar, em tempo real, a saúde e a integridade das abelhas dentro de uma colmeia específica, utilizando técnicas avançadas de visão computacional e inteligência artificial.
+## Introduction
+*Hive Defender* is a project developed during the second half of 2024 as part of the ENTEC technology event, held by the University of Uberaba (Uniube). The main goal of the project is to monitor, in real-time, the health and integrity of bees within a specific beehive, utilizing advanced techniques in computer vision and artificial intelligence.
 
-As abelhas desempenham um papel fundamental na polinização e na manutenção do equilíbrio dos ecossistemas, porém, estão cada vez mais ameaçadas por fatores externos, como o ácaro *Varroa destructor*. Esse ácaro parasita é um dos maiores perigos à sobrevivência das colônias de abelhas, podendo dizimar colmeias inteiras. O *Hive Defender* foi criado para combater essa ameaça e, futuramente, expandir a detecção de outras ameaças que comprometem a saúde das abelhas.
+Bees play a crucial role in pollination and maintaining the balance of ecosystems; however, they are increasingly threatened by external factors, such as the *Varroa destructor* mite. This parasitic mite poses one of the greatest dangers to the survival of bee colonies, potentially wiping out entire hives. *Hive Defender* was created to combat this threat and aims to expand the detection of other threats that compromise bee health in the future.
 
-## Estrutura do Projeto
-O projeto faz uso de um modelo de detecção de objetos baseado no **YOLOv8**, que foi treinado em um conjunto de dados com aproximadamente 500 a 600 imagens. Estas imagens capturam a presença do *Varroa destructor* dentro de colmeias. Através da análise visual automática, o modelo identifica a presença do ácaro em tempo real, emitindo alertas para intervenção precoce.
+## Project Structure
+The project employs a **YOLOv8** object detection model, which was trained on a dataset consisting of approximately 500 to 600 images. These images capture the presence of *Varroa destructor* within beehives. Through automatic visual analysis, the model identifies the presence of the mite in real-time, issuing alerts for early intervention.
 
-A escolha do YOLOv8 se deu por seu equilíbrio entre precisão e velocidade, características essenciais para monitoramento em tempo real. O modelo é integrado a um pipeline que processa imagens capturadas diretamente das colmeias, detectando qualquer anomalia que possa representar uma ameaça ao bem-estar das abelhas.
+The choice of YOLOv8 was based on its balance between accuracy and speed, both of which are essential for real-time monitoring. The model is integrated into a pipeline that processes images captured directly from the beehives, detecting any anomalies that may represent a threat to the well-being of the bees.
 
-### Passo a Passo do Algoritmo
-*Essa seção será detalhada posteriormente, explicando o fluxo completo desde a captura das imagens até a detecção das ameaças.*
+### Step-by-Step Algorithm
+*This section will be detailed later, explaining the complete workflow from image capture to threat detection.*
 
-## Ajustes e Melhorias Possíveis
-Embora o *Hive Defender* já apresente bons resultados na detecção do *Varroa destructor*, sempre há espaço para melhorias e otimizações que podem aumentar a eficiência do sistema. Algumas sugestões incluem:
+## Possible Adjustments and Improvements
+Although *Hive Defender* already demonstrates good results in detecting *Varroa destructor*, there is always room for improvements and optimizations that can enhance the system's efficiency. Some suggestions include:
 
-1. **Ampliação do Dataset:** Aumentar significativamente o número de imagens no conjunto de dados de treinamento. Além disso, incorporar maior diversidade nas imagens, com diferentes condições de iluminação, ângulos e contextos, o que permitirá ao modelo ser mais robusto e adaptável.
-   
-2. **Atualização do Modelo de Visão Computacional:** Considerar o uso de modelos mais poderosos e específicos para tarefas de detecção, como o **EfficientDet** ou redes baseadas em *Transformers*, que poderiam fornecer melhor desempenho em termos de precisão sem sacrificar a velocidade.
-   
-3. **Utilização de Hardware Avançado:** O uso de GPUs mais potentes permitirá processar imagens em maior resolução e com maior velocidade. Também se pode investir em câmeras de maior qualidade para capturar mais detalhes nas imagens, o que melhoraria ainda mais a acurácia da detecção.
-   
-4. **Melhoria na Qualidade das Imagens:** Focar em otimizar tanto a qualidade das imagens usadas no treinamento quanto das imagens capturadas durante a execução do modelo. Imagens mais nítidas e com melhor resolução garantem que o modelo detecte ameaças de maneira mais precisa.
+1. **Dataset Expansion:** Significantly increase the number of images in the training dataset. Additionally, incorporate greater diversity in the images, capturing different lighting conditions, angles, and contexts, which will allow the model to be more robust and adaptable.
 
-Essas melhorias são passos importantes para tornar o sistema mais eficaz e flexível, permitindo que seja utilizado em diversas situações e colmeias diferentes.
+2. **Upgrade the Computer Vision Model:** Consider using more powerful and specialized models for detection, such as **EfficientDet** or transformer-based networks, which could provide better performance in terms of accuracy without sacrificing speed.
 
-## Referências
-*As referências a artigos científicos, estudos sobre a saúde das abelhas e documentos técnicos sobre o Varroa destructor serão incluídas futuramente.*
+3. **Utilize Advanced Hardware:** Using more powerful GPUs will allow processing images at higher resolutions and speeds. Investing in higher-quality cameras for capturing more details in images would also further improve detection accuracy.
 
-## Conclusão
-O *Hive Defender* foi desenvolvido com a intenção de proporcionar uma solução prática e eficiente para o monitoramento da saúde das abelhas utilizando tecnologias de Visão Computacional e Inteligência Artificial. Ao identificar e alertar sobre a presença de ameaças como o *Varroa destructor*, o sistema pode ajudar a preservar a integridade das colmeias, que são fundamentais para a polinização e o equilíbrio ambiental.
+4. **Enhance Image Quality:** Focus on optimizing both the quality of the images used in training and the images captured during the model's execution. Higher-quality, clearer images ensure that the model detects threats more accurately.
 
-Este projeto também serviu como uma plataforma de aprendizado para aprofundar o conhecimento em IA e visão computacional aplicada à preservação ambiental. No futuro, o *Hive Defender* pode ser expandido para incluir a detecção de outras ameaças e fatores que afetam o bem-estar das abelhas, contribuindo ainda mais para a proteção desses insetos vitais.
+These improvements are essential steps to make the system more effective and flexible, enabling it to be used in various situations and across different beehives.
+
+## References
+*References to scientific articles, studies on bee health, and technical documents about *Varroa destructor* will be added later.*
+
+## Conclusion
+*Hive Defender* was developed to provide a practical and efficient solution for monitoring the health of bees using computer vision and artificial intelligence technologies. By identifying and alerting the presence of threats such as *Varroa destructor*, the system can help preserve the integrity of beehives, which are crucial for pollination and environmental balance.
+
+This project also served as a learning platform to deepen knowledge in AI and computer vision applied to environmental preservation. In the future, *Hive Defender* can be expanded to include the detection of other threats and factors affecting the well-being of bees, further contributing to the protection of these vital insects.
