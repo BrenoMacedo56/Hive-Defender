@@ -18,7 +18,7 @@ The choice of YOLOv8 is based on its balance between accuracy and speed, essenti
 
 ### Algorithm Workflow
 
-1. **Image Capture:** High-resolution cameras installed in the hives continuously capture images.
+1. **Image Capture:** High-resolution cameras (Maybe sensors too?) installed in the hives continuously capture images.
 2. **Preprocessing:** The images are resized and normalized for input into the model.
 3. **Detection:** The YOLOv8 model processes the images, identifying potential *Varroa destructor* mites.
 4. **Analysis:** Detection results are analyzed to determine the presence and extent of infestation.
