@@ -1,4 +1,4 @@
-### *PROJECT UNDER DEVELOPMENT*
+### <span style="color:red;">*PROJECT UNDER DEVELOPMENT*</span>
 
 # Hive Defender 🐝
 
