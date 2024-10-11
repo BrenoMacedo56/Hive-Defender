@@ -20,24 +20,21 @@ The choice of YOLOv8 is based on its balance between accuracy and speed, essenti
 
 ### Algorithm Workflow
 
+```mermaid
+graph TD;
+    Image Capture-->Preprocessing;
+    Preprocessing-->Detection;
+    Detection-->Analysis;
+    Analysis-->Alert
+    Alert-->Image Capture
+```
+
 1. **Image Capture:** High-resolution cameras (Maybe sensors too?) installed in the hives continuously capture images.
 2. **Preprocessing:** The images are resized and normalized for input into the model.
 3. **Detection:** The YOLOv8 model processes the images, identifying potential *Varroa destructor* mites.
 4. **Analysis:** Detection results are analyzed to determine the presence and extent of infestation.
 5. **Alert:** If a threat is detected, an alert is generated and sent to the beekeeper via a notification system.
 
-##<details>
-<summary>Possible Adjustments and Improvements</summary>
-
-| Rank | Imrprovements |
-|-----:|-----------|
-|     1| **Dataset Expansion:**
-   - Significantly increase the number of training images.
-   - Incorporate greater diversity in images (lighting conditions, angles, contexts).|
-|     2| Python    |
-|     3| SQL       |
-
-</details>
 
 ## Possible Adjustments and Improvements
 
