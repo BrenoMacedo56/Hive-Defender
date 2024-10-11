@@ -1,5 +1,5 @@
 ```diff
-                                                               -PROJECT UNDER DEVELOPMENT-
+                                                               -PROJECT UNDER DEVELOPMENT
 ```
 
 # Hive Defender 🐝
