@@ -4,6 +4,8 @@
  <img alt="Hive-Defender" src="https://i.pinimg.com/1200x/9d/d8/88/9dd888584a7891413b880a3770e04ddf.jpg">
 </picture>   
 
+> [!IMPORTANT]
+> This is awork in progress.
 
 # Hive Defender 🐝
 
@@ -33,10 +35,10 @@ graph TD;
 ```
 
 1. **Image Capture:** High-resolution cameras (Maybe sensors too?) installed in the hives continuously capture images.
-2. **Preprocessing:** The images are resized and normalized for input into the model.
-3. **Detection:** The YOLOv8 model processes the images, identifying potential *Varroa destructor* mites.
-4. **Analysis:** Detection results are analyzed to determine the presence and extent of infestation.
-5. **Alert:** If a threat is detected, an alert is generated and sent to the beekeeper via a notification system.
+     2. **Preprocessing:** The images are resized and normalized for input into the model.
+          3. **Detection:** The YOLOv8 model processes the images, identifying potential *Varroa destructor* mites.
+               4. **Analysis:** Detection results are analyzed to determine the presence and extent of infestation.
+                    5. **Alert:** If a threat is detected, an alert is generated and sent to the beekeeper via a notification system.
 
 
 ## Possible Adjustments and Improvements
@@ -75,8 +77,8 @@ While Hive Defender has already shown promising results, there is always room fo
 
 ## Conclusion
 
-Hive Defender represents a significant step in applying cutting-edge technologies for bee preservation. By identifying and alerting about the presence of threats like the *Varroa destructor*, the system contributes to maintaining hive health, crucial for pollination and environmental balance.
+Hive Defender will represent a significant step in applying cutting-edge technologies for bee preservation. By identifying and alerting about the presence of threats like the *Varroa destructor*, the system contributes to maintaining hive health, crucial for pollination and environmental balance.
 
-This project not only offers a practical solution to an urgent problem but also serves as a learning platform for deepening knowledge in AI and computer vision applied to environmental preservation. In the future, Hive Defender has the potential to expand to include the detection of other threats, further contributing to the protection of these vital insects.
+This project not only aims to offers a practical solution to an urgent problem but also serves as a learning platform for deepening knowledge in AI and computer vision applied to environmental preservation. In the future, Hive Defender has the potential to expand to include the detection of other threats, further contributing to the protection of these vital insects.
 
-*Note: This is a first project in the field of Computer Vision, representing an initial step in exploring this fascinating technology.*
+>This is my first project in the field of Computer Vision, don't expect to see anything fancy here.*
