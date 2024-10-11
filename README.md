@@ -26,6 +26,17 @@ The choice of YOLOv8 is based on its balance between accuracy and speed, essenti
 4. **Analysis:** Detection results are analyzed to determine the presence and extent of infestation.
 5. **Alert:** If a threat is detected, an alert is generated and sent to the beekeeper via a notification system.
 
+<details>
+<summary>My top languages</summary>
+
+| Rank | Languages |
+|-----:|-----------|
+|     1| JavaScript|
+|     2| Python    |
+|     3| SQL       |
+
+</details>
+
 ## Possible Adjustments and Improvements
 
 While Hive Defender has already shown promising results, there is always room for improvement:
