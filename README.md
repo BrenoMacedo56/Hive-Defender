@@ -1,6 +1,4 @@
-```diff
-                                                                  - PROJECT UNDER CONSTRUCTION -
-```
+- ![#f03c15]`teste`
 
 # Hive Defender 🐝
 
