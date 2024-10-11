@@ -37,10 +37,10 @@ graph TD;
 ```
 
 1. **Image Capture:** High-resolution cameras (Maybe sensors too?) installed in the hives continuously capture images.
-     2. **Preprocessing:** The images are resized and normalized for input into the model.
-          3. **Detection:** The YOLOv8 model processes the images, identifying potential *Varroa destructor* mites.
-               4. **Analysis:** Detection results are analyzed to determine the presence and extent of infestation.
-                    5. **Alert:** If a threat is detected, an alert is generated and sent to the beekeeper via a notification system.
+2. **Preprocessing:** The images are resized and normalized for input into the model.
+3. **Detection:** The YOLOv8 model processes the images, identifying potential *Varroa destructor* mites.
+4. **Analysis:** Detection results are analyzed to determine the presence and extent of infestation.
+5. **Alert:** If a threat is detected, an alert is generated and sent to the beekeeper via a notification system.
 
 
 ## Possible Adjustments and Improvements
