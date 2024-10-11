@@ -1,8 +1,8 @@
+### *PROJECT UNDER DEVELOPMENT*
+
 # Hive Defender 🐝
 
 ## An Intelligent System for Hive Threat Detection
-
-### *PROJECT UNDER DEVELOPMENT*
 
 ## Introduction
 
