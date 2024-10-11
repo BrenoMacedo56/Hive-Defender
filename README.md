@@ -25,8 +25,8 @@ graph TD;
     Image Capture-->Preprocessing;
     Preprocessing-->Detection;
     Detection-->Analysis;
-    Analysis-->Alert
-    Alert-->Image Capture
+    Analysis-->Alert;
+    Alert-->Image Capture;
 ```
 
 1. **Image Capture:** High-resolution cameras (Maybe sensors too?) installed in the hives continuously capture images.
