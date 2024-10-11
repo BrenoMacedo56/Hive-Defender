@@ -4,12 +4,14 @@
  <img alt="Hive-Defender" src="https://i.pinimg.com/1200x/9d/d8/88/9dd888584a7891413b880a3770e04ddf.jpg">
 </picture>   
 
+
+
 > [!IMPORTANT]
 > This is awork in progress.
 
 # Hive Defender 🐝
 
-## An Intelligent System for Hive Threat Detection
+An Intelligent System for Hive Threat Detection
 
 ## Introduction
 
