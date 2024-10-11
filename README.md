@@ -22,11 +22,11 @@ The choice of YOLOv8 is based on its balance between accuracy and speed, essenti
 
 ```mermaid
 graph TD;
-    Image Capture-->Preprocessing;
+    Image_Capture-->Preprocessing;
     Preprocessing-->Detection;
     Detection-->Analysis;
     Analysis-->Alert;
-    Alert-->Image Capture;
+    Alert-->Image_Capture;
 ```
 
 1. **Image Capture:** High-resolution cameras (Maybe sensors too?) installed in the hives continuously capture images.
